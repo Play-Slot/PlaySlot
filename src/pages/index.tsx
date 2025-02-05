@@ -68,8 +68,8 @@ const IndexPage: React.FC<PageProps> = () => {
                     <Heading>PlaySlot Training and Inference</Heading>
                     <div>
                       Overview of PlaySlot training and inference processes. <br></br>
-                      <b> a) Training: </b> PlaySlot is trained given unlabeled video sequences by inferring object representations S and latent actions ẑ, and using these representations to autoregressively forecast future video frames and object states. <br></br>
-                      <b> b) Inference: </b> PlaySlot autoregressively forecasts future frames conditioned on a single frame X1 and latent actions ẑ, which can be inferred from observations, provided by a user, or output by a learned action policy.
+                      <b> a) Training: </b> PlaySlot is trained given unlabeled video sequences by inferring object representations and latent actions, and using these representations to autoregressively forecast future video frames and object states. <br></br>
+                      <b> b) Inference: </b> PlaySlot autoregressively forecasts future frames conditioned on a single frame X1 and latent actions, which can be inferred from observations, provided by a user, or output by a learned action policy.
                     </div>
                     <br></br>
 
