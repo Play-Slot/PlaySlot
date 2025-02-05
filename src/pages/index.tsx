@@ -24,7 +24,7 @@ const Article: React.FC = ({children}) => {
 }
 
 
-export const Head: HeadFC = () => <title>Project Page Template</title>
+export const Head: HeadFC = () => <title>PlaySlot: Controllable Object-Centric Video Prediction</title>
 
 const IndexPage: React.FC<PageProps> = () => {
     return (
@@ -56,7 +56,6 @@ const IndexPage: React.FC<PageProps> = () => {
                             ["https://github.com/angelvillar96/PlaySlot", "Code"],
                         ]}
                     />
-                    {/* ["", "Video"] */}
 
                     {/* Abstract */}
                     <Abstract>
