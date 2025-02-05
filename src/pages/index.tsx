@@ -69,12 +69,12 @@ const IndexPage: React.FC<PageProps> = () => {
                     <div>
                       Overview of PlaySlot training and inference processes. <br></br>
                       <b> a) Training: </b> PlaySlot is trained given unlabeled video sequences by inferring object representations and latent actions, and using these representations to autoregressively forecast future video frames and object states. <br></br>
-                      <b> b) Inference: </b> PlaySlot autoregressively forecasts future frames conditioned on a single frame X1 and latent actions, which can be inferred from observations, provided by a user, or output by a learned action policy.
+                      <b> b) Inference: </b> PlaySlot autoregressively forecasts future frames conditioned on a single frame and latent actions, which can be inferred from observations, provided by a user, or output by a learned action policy.
                     </div>
                     <br></br>
 
 
-                    <img src="/imgs/img_comb.png" alt="train_inference"></img>
+                    <img src="imgs/img_comb.png" alt="train_inference"></img>
 
 
 
@@ -84,79 +84,79 @@ const IndexPage: React.FC<PageProps> = () => {
                     <div class="gif-container">
                         <div class="gif-item">
                           <div class="gif-title">GT</div>
-                          <img src="/GIFs/seq_00/gt_GIF_frames.gif" alt="GT 00"></img>
+                          <img src="GIFs/seq_00/gt_GIF_frames.gif" alt="GT 00"></img>
                         </div>
                         <div class="gif-item">
                           <div class="gif-title">Pred</div>
-                          <img src="/GIFs/seq_00/pred_GIF_frames.gif" alt="Pred 00"></img>
+                          <img src="GIFs/seq_00/pred_GIF_frames.gif" alt="Pred 00"></img>
                         </div>
                         <div class="gif-item">
                           <div class="gif-title">Slot Masks</div>
-                        <img src="/GIFs/seq_00/masks_GIF_masks.gif" alt="Segm 00"></img>
+                        <img src="GIFs/seq_00/masks_GIF_masks.gif" alt="Segm 00"></img>
                       </div>
                       <div class="gif-item">
                         <div class="gif-title">Obj. 1</div>
-                        <img src="/GIFs/seq_00/gt_obj_1.gif" alt="Obj1 00"></img>
+                        <img src="GIFs/seq_00/gt_obj_1.gif" alt="Obj1 00"></img>
                       </div>
                       <div class="gif-item">
                         <div class="gif-title">Obj. 2</div>
-                        <img src="/GIFs/seq_00/gt_obj_2.gif" alt="Obj1 01"></img>
+                        <img src="GIFs/seq_00/gt_obj_2.gif" alt="Obj1 01"></img>
                       </div>
                       <div class="gif-item">
                         <div class="gif-title">Obj. 3</div>
-                        <img src="/GIFs/seq_00/gt_obj_5.gif" alt="Obj1 02"></img>
+                        <img src="GIFs/seq_00/gt_obj_5.gif" alt="Obj1 02"></img>
                       </div>
                       <div class="gif-item">
                         <div class="gif-title">Obj. 4</div>
-                        <img src="/GIFs/seq_00/gt_obj_7.gif" alt="Obj1 03"></img>
+                        <img src="GIFs/seq_00/gt_obj_7.gif" alt="Obj1 03"></img>
                       </div>
                     </div>
 
                     <div class="gif-container">
                       <div class="gif-item">
-                        <img src="/GIFs/seq_01/gt_GIF_frames.gif" alt="GT 00"></img>
+                        <img src="GIFs/seq_01/gt_GIF_frames.gif" alt="GT 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_01/pred_GIF_frames.gif" alt="Pred 00"></img>
+                        <img src="GIFs/seq_01/pred_GIF_frames.gif" alt="Pred 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_01/masks_GIF_masks.gif" alt="Segm 00"></img>
+                        <img src="GIFs/seq_01/masks_GIF_masks.gif" alt="Segm 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_01/gt_obj_1.gif" alt="Obj1 00"></img>
+                        <img src="GIFs/seq_01/gt_obj_1.gif" alt="Obj1 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_01/gt_obj_4.gif" alt="Obj1 01"></img>
+                        <img src="GIFs/seq_01/gt_obj_4.gif" alt="Obj1 01"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_01/gt_obj_7.gif" alt="Obj1 02"></img>
+                        <img src="GIFs/seq_01/gt_obj_7.gif" alt="Obj1 02"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_01/gt_obj_8.gif" alt="Obj1 03"></img>
+                        <img src="GIFs/seq_01/gt_obj_8.gif" alt="Obj1 03"></img>
                       </div>
                     </div>
 
                     <div class="gif-container">
                       <div class="gif-item">
-                        <img src="/GIFs/seq_02/gt_GIF_frames.gif" alt="GT 00"></img>
+                        <img src="GIFs/seq_02/gt_GIF_frames.gif" alt="GT 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_02/pred_GIF_frames.gif" alt="Pred 00"></img>
+                        <img src="GIFs/seq_02/pred_GIF_frames.gif" alt="Pred 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_02/masks_GIF_masks.gif" alt="Segm 00"></img>
+                        <img src="GIFs/seq_02/masks_GIF_masks.gif" alt="Segm 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_02/gt_obj_1.gif" alt="Obj1 00"></img>
+                        <img src="GIFs/seq_02/gt_obj_1.gif" alt="Obj1 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_02/gt_obj_3.gif" alt="Obj1 01"></img>
+                        <img src="GIFs/seq_02/gt_obj_3.gif" alt="Obj1 01"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_02/gt_obj_7.gif" alt="Obj1 02"></img>
+                        <img src="GIFs/seq_02/gt_obj_7.gif" alt="Obj1 02"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_02/gt_obj_8.gif" alt="Obj1 03"></img>
+                        <img src="GIFs/seq_02/gt_obj_8.gif" alt="Obj1 03"></img>
                       </div>
                     </div>
 
@@ -165,73 +165,73 @@ const IndexPage: React.FC<PageProps> = () => {
                     <br></br>
                     <div class="gif-container">
                       <div class="gif-item">
-                        <img src="/GIFs/seq_06/gt_GIF_frames.gif" alt="GT 00"></img>
+                        <img src="GIFs/seq_06/gt_GIF_frames.gif" alt="GT 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_06/pred_GIF_frames.gif" alt="Pred 00"></img>
+                        <img src="GIFs/seq_06/pred_GIF_frames.gif" alt="Pred 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_06/masks_GIF_masks.gif" alt="Segm 00"></img>
+                        <img src="GIFs/seq_06/masks_GIF_masks.gif" alt="Segm 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_06/gt_obj_1.gif" alt="Obj1 00"></img>
+                        <img src="GIFs/seq_06/gt_obj_1.gif" alt="Obj1 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_06/gt_obj_2.gif" alt="Obj1 01"></img>
+                        <img src="GIFs/seq_06/gt_obj_2.gif" alt="Obj1 01"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_06/gt_obj_3.gif" alt="Obj1 02"></img>
+                        <img src="GIFs/seq_06/gt_obj_3.gif" alt="Obj1 02"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_06/gt_obj_4.gif" alt="Obj1 03"></img>
-                      </div>
-                    </div>
-
-                    <div class="gif-container">
-                      <div class="gif-item">
-                        <img src="/GIFs/seq_07/gt_GIF_frames.gif" alt="GT 00"></img>
-                      </div>
-                      <div class="gif-item">
-                        <img src="/GIFs/seq_07/pred_GIF_frames.gif" alt="Pred 00"></img>
-                      </div>
-                      <div class="gif-item">
-                        <img src="/GIFs/seq_07/masks_GIF_masks.gif" alt="Segm 00"></img>
-                      </div>
-                      <div class="gif-item">
-                        <img src="/GIFs/seq_07/gt_obj_1.gif" alt="Obj1 00"></img>
-                      </div>
-                      <div class="gif-item">
-                        <img src="/GIFs/seq_07/gt_obj_2.gif" alt="Obj1 01"></img>
-                      </div>
-                      <div class="gif-item">
-                        <img src="/GIFs/seq_07/gt_obj_3.gif" alt="Obj1 02"></img>
-                      </div>
-                      <div class="gif-item">
-                        <img src="/GIFs/seq_07/gt_obj_4.gif" alt="Obj1 03"></img>
+                        <img src="GIFs/seq_06/gt_obj_4.gif" alt="Obj1 03"></img>
                       </div>
                     </div>
 
                     <div class="gif-container">
                       <div class="gif-item">
-                        <img src="/GIFs/seq_08/gt_GIF_frames.gif" alt="GT 00"></img>
+                        <img src="GIFs/seq_07/gt_GIF_frames.gif" alt="GT 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_08/pred_GIF_frames.gif" alt="Pred 00"></img>
+                        <img src="GIFs/seq_07/pred_GIF_frames.gif" alt="Pred 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_08/masks_GIF_masks.gif" alt="Segm 00"></img>
+                        <img src="GIFs/seq_07/masks_GIF_masks.gif" alt="Segm 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_08/gt_obj_1.gif" alt="Obj1 00"></img>
+                        <img src="GIFs/seq_07/gt_obj_1.gif" alt="Obj1 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_08/gt_obj_2.gif" alt="Obj1 01"></img>
+                        <img src="GIFs/seq_07/gt_obj_2.gif" alt="Obj1 01"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_08/gt_obj_3.gif" alt="Obj1 02"></img>
+                        <img src="GIFs/seq_07/gt_obj_3.gif" alt="Obj1 02"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_08/gt_obj_4.gif" alt="Obj1 03"></img>
+                        <img src="GIFs/seq_07/gt_obj_4.gif" alt="Obj1 03"></img>
+                      </div>
+                    </div>
+
+                    <div class="gif-container">
+                      <div class="gif-item">
+                        <img src="GIFs/seq_08/gt_GIF_frames.gif" alt="GT 00"></img>
+                      </div>
+                      <div class="gif-item">
+                        <img src="GIFs/seq_08/pred_GIF_frames.gif" alt="Pred 00"></img>
+                      </div>
+                      <div class="gif-item">
+                        <img src="GIFs/seq_08/masks_GIF_masks.gif" alt="Segm 00"></img>
+                      </div>
+                      <div class="gif-item">
+                        <img src="GIFs/seq_08/gt_obj_1.gif" alt="Obj1 00"></img>
+                      </div>
+                      <div class="gif-item">
+                        <img src="GIFs/seq_08/gt_obj_2.gif" alt="Obj1 01"></img>
+                      </div>
+                      <div class="gif-item">
+                        <img src="GIFs/seq_08/gt_obj_3.gif" alt="Obj1 02"></img>
+                      </div>
+                      <div class="gif-item">
+                        <img src="GIFs/seq_08/gt_obj_4.gif" alt="Obj1 03"></img>
                       </div>
                     </div>
 
@@ -241,73 +241,73 @@ const IndexPage: React.FC<PageProps> = () => {
                     <br></br>
                     <div class="gif-container">
                       <div class="gif-item">
-                        <img src="/GIFs/seq_03/gt_GIF_frames.gif" alt="GT 00"></img>
+                        <img src="GIFs/seq_03/gt_GIF_frames.gif" alt="GT 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_03/pred_GIF_frames.gif" alt="Pred 00"></img>
+                        <img src="GIFs/seq_03/pred_GIF_frames.gif" alt="Pred 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_03/masks_GIF_masks.gif" alt="Segm 00"></img>
+                        <img src="GIFs/seq_03/masks_GIF_masks.gif" alt="Segm 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_03/gt_obj_1.gif" alt="Obj1 00"></img>
+                        <img src="GIFs/seq_03/gt_obj_1.gif" alt="Obj1 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_03/gt_obj_5.gif" alt="Obj1 01"></img>
+                        <img src="GIFs/seq_03/gt_obj_5.gif" alt="Obj1 01"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_03/gt_obj_6.gif" alt="Obj1 02"></img>
+                        <img src="GIFs/seq_03/gt_obj_6.gif" alt="Obj1 02"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_03/gt_obj_7.gif" alt="Obj1 03"></img>
-                      </div>
-                    </div>
-
-                    <div class="gif-container">
-                      <div class="gif-item">
-                        <img src="/GIFs/seq_04/gt_GIF_frames.gif" alt="GT 00"></img>
-                      </div>
-                      <div class="gif-item">
-                        <img src="/GIFs/seq_04/pred_GIF_frames.gif" alt="Pred 00"></img>
-                      </div>
-                      <div class="gif-item">
-                        <img src="/GIFs/seq_04/masks_GIF_masks.gif" alt="Segm 00"></img>
-                      </div>
-                      <div class="gif-item">
-                        <img src="/GIFs/seq_04/gt_obj_5.gif" alt="Obj1 00"></img>
-                      </div>
-                      <div class="gif-item">
-                        <img src="/GIFs/seq_04/gt_obj_6.gif" alt="Obj1 01"></img>
-                      </div>
-                      <div class="gif-item">
-                        <img src="/GIFs/seq_04/gt_obj_7.gif" alt="Obj1 02"></img>
-                      </div>
-                      <div class="gif-item">
-                        <img src="/GIFs/seq_04/gt_obj_8.gif" alt="Obj1 03"></img>
+                        <img src="GIFs/seq_03/gt_obj_7.gif" alt="Obj1 03"></img>
                       </div>
                     </div>
 
                     <div class="gif-container">
                       <div class="gif-item">
-                        <img src="/GIFs/seq_05/gt_GIF_frames.gif" alt="GT 00"></img>
+                        <img src="GIFs/seq_04/gt_GIF_frames.gif" alt="GT 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_05/pred_GIF_frames.gif" alt="Pred 00"></img>
+                        <img src="GIFs/seq_04/pred_GIF_frames.gif" alt="Pred 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_05/masks_GIF_masks.gif" alt="Segm 00"></img>
+                        <img src="GIFs/seq_04/masks_GIF_masks.gif" alt="Segm 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_05/gt_obj_3.gif" alt="Obj1 00"></img>
+                        <img src="GIFs/seq_04/gt_obj_5.gif" alt="Obj1 00"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_05/gt_obj_5.gif" alt="Obj1 01"></img>
+                        <img src="GIFs/seq_04/gt_obj_6.gif" alt="Obj1 01"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_05/gt_obj_6.gif" alt="Obj1 02"></img>
+                        <img src="GIFs/seq_04/gt_obj_7.gif" alt="Obj1 02"></img>
                       </div>
                       <div class="gif-item">
-                        <img src="/GIFs/seq_05/gt_obj_8.gif" alt="Obj1 03"></img>
+                        <img src="GIFs/seq_04/gt_obj_8.gif" alt="Obj1 03"></img>
+                      </div>
+                    </div>
+
+                    <div class="gif-container">
+                      <div class="gif-item">
+                        <img src="GIFs/seq_05/gt_GIF_frames.gif" alt="GT 00"></img>
+                      </div>
+                      <div class="gif-item">
+                        <img src="GIFs/seq_05/pred_GIF_frames.gif" alt="Pred 00"></img>
+                      </div>
+                      <div class="gif-item">
+                        <img src="GIFs/seq_05/masks_GIF_masks.gif" alt="Segm 00"></img>
+                      </div>
+                      <div class="gif-item">
+                        <img src="GIFs/seq_05/gt_obj_3.gif" alt="Obj1 00"></img>
+                      </div>
+                      <div class="gif-item">
+                        <img src="GIFs/seq_05/gt_obj_5.gif" alt="Obj1 01"></img>
+                      </div>
+                      <div class="gif-item">
+                        <img src="GIFs/seq_05/gt_obj_6.gif" alt="Obj1 02"></img>
+                      </div>
+                      <div class="gif-item">
+                        <img src="GIFs/seq_05/gt_obj_8.gif" alt="Obj1 03"></img>
                       </div>
                     </div>
 
@@ -320,7 +320,7 @@ const IndexPage: React.FC<PageProps> = () => {
                     </div>
                     <br></br>
 
-                    <img src="/imgs/benchmark.png" alt="benchmark"></img>
+                    <img src="imgs/benchmark.png" alt="benchmark"></img>
                     <br></br>
 
                     <div>
@@ -328,8 +328,8 @@ const IndexPage: React.FC<PageProps> = () => {
                     </div>
 
                     <div class="image-container">
-                        <img src="/imgs/qual_01.png" alt="qual_01"></img>
-                        <img src="/imgs/qual_02.png" alt="qual_02"></img>
+                        <img src="imgs/qual_01.png" alt="qual_01"></img>
+                        <img src="imgs/qual_02.png" alt="qual_02"></img>
                     </div>
 
 
