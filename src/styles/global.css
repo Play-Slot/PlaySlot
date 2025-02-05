@@ -48,3 +48,40 @@ a:hover::after {
 .no-underline-effect::after {
     content: none; /* Completely removes the underline */
 }
+
+
+.gif-container {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
+  }
+.gif-item {
+    text-align: center; /* Centers text and image */
+}
+.gif-item img {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.gif-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust spacing between images */
+    margin-top: 20px;
+}
+.image-container img {
+    width: 50%; /* Adjust size as needed */
+    height: auto;
+    display: block;
+}
