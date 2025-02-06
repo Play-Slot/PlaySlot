@@ -14,8 +14,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
-    "homepage": "https://github.com/angelvillar96/PlaySlot_Page",
-    "deploy": "rm -r public & yarn run build && gh-pages -d public -b gh-pages -r git@github.com:angelvillar96/PlaySlot_Page.git",
+    "homepage": "https://github.com/Play-Slot/PlaySlot",
+    "deploy": "rm -r public & yarn run build && gh-pages -d public -b gh-pages -r git@github.com:Play-Slot/PlaySlot.git",
     "staging": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages"
   },
   "dependencies": {
