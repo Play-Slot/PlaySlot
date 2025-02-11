@@ -85,3 +85,9 @@ a:hover::after {
     height: auto;
     display: block;
 }
+.subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 5px;
+  margin: 5px;
+}
