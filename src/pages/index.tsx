@@ -50,11 +50,15 @@ const IndexPage: React.FC<PageProps> = () => {
                     </div>
 
                     {/* Links */}
-                    <LinkGroup arxivUrl={""} pdfUrl={""} otherUrls={
-                        [
-                            ["/bibtex.txt", "BibTex"],
-                            ["https://github.com/angelvillar96/PlaySlot", "Code"],
-                        ]}
+                    <LinkGroup
+                        arxivUrl={"https://arxiv.org/abs/2502.07600"}
+                        pdfUrl={"https://arxiv.org/pdf/2502.07600"}
+                        otherUrls={
+                          [
+                              ["/bibtex.txt", "BibTex"],
+                              ["https://github.com/angelvillar96/PlaySlot", "Code"],
+                          ]
+                        }
                     />
 
                     {/* Abstract */}

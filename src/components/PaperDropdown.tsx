@@ -109,4 +109,3 @@ const PaperDropdown: React.FC<{ arxivUrl: string; pdfUrl: string }> = ({ arxivUr
 };
 
 export default PaperDropdown;
-
