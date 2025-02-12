@@ -55,7 +55,7 @@ const IndexPage: React.FC<PageProps> = () => {
                         pdfUrl={"https://arxiv.org/pdf/2502.07600"}
                         otherUrls={
                           [
-                              ["https://play-slot.github.io/PlaySlot/bibtex.txt", "BibTex"],
+                              ["http://angelvillarcorrales.com/templates/others/bibtex_PlaySlot.php", "BibTex"],
                               ["https://github.com/angelvillar96/PlaySlot", "Code"],
                           ]
                         }

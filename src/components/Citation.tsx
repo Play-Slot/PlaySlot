@@ -42,7 +42,13 @@ const Citation: React.FC = ({}) => {
                 </button>
                 <pre className="whitespace-pre-wrap" style={{color: textColor}}>
                     <code id="citation-bib">
-                        {bibtex || "Loading..."}
+                      {
+                        `@article{villar_PlaySlot_2025,
+   title={PlaySlot: Learning Inverse Latent Dynamics for Controllable Object-Centric Video Prediction and Planning},
+   authors={Villar-Corrales, Angel and Behnke, Sven},
+   journal={arXiv preprint arXiv:2502.07600}
+ }`
+                         || "Loading..."}
                     </code>
                 </pre>
 
