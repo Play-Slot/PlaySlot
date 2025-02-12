@@ -1,6 +1,6 @@
-@inproceedings{author2024project,
-  title={Title of the Paper or Project},
-  author={Author, First and Author, Second and Author, Third},
-  booktitle={Name of the Conference},
-  year={2024}
+@article{villar_PlaySlot_2025,
+  title={PlaySlot: Learning Inverse Latent Dynamics for Controllable Object-Centric Video Prediction and Planning},
+  author={Villar-Corrales, Angel and Behnke, Sven},
+  journal={arXiv preprint arXiv:2502.07600},
+  year={2025}
 }
