@@ -10,12 +10,12 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
     "homepage": "https://github.com/Play-Slot/PlaySlot",
-    "deploy": "rm -r public & yarn run build && gh-pages -d public -b gh-pages -r git@github-second:Play-Slot/PlaySlot.git",
+    "deploy": "rm -r public && yarn run build && gh-pages -d public -b gh-pages -r git@github-second:Play-Slot/PlaySlot.git",
     "staging": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages"
   },
   "dependencies": {
