@@ -24,7 +24,7 @@ const Article: React.FC = ({children}) => {
 }
 
 
-export const Head: HeadFC = () => <title>PlaySlot: Controllable Object-Centric Video Prediction</title>
+export const Head: HeadFC = () => <title>PlaySlot: Object-Centric Prediction and Planning</title>
 
 const IndexPage: React.FC<PageProps> = () => {
     return (
@@ -386,22 +386,22 @@ const IndexPage: React.FC<PageProps> = () => {
                         <div class="full-gif-label label-2">PlaySlot</div>
                         <div class="full-gif-label label-3">CADDY</div>
                         <div class="full-gif-label label-4">SVG</div>
-                        <img src="GIFs/ComparisonBaselines/BlockPush_00/_Rollouts.gif" alt="GT"></img>
+                        <img src="GIFs/ComparisonBaselines/BlockPush_00/Rollouts.gif" alt="GT"></img>
                       </div>
                       <div class="full-gif">
                         <div class="full-gif-label label-1">GT</div>
                         <div class="full-gif-label label-2">PlaySlot</div>
                         <div class="full-gif-label label-3">CADDY</div>
                         <div class="full-gif-label label-4">SVG</div>
-                        <img src="GIFs/ComparisonBaselines/BlockPush_01/_Rollouts.gif" alt="GT"></img>
+                        <img src="GIFs/ComparisonBaselines/BlockPush_01/Rollouts.gif" alt="GT"></img>
                       </div>
                     </div>
                     <div class="gif-row">
                       <div class="full-gif">
-                        <img src="GIFs/ComparisonBaselines/BlockPush_03/_Rollouts.gif" alt="GT"></img>
+                        <img src="GIFs/ComparisonBaselines/BlockPush_03/Rollouts.gif" alt="GT"></img>
                       </div>
                       <div class="full-gif">
-                        <img src="GIFs/ComparisonBaselines/BlockPush_04/_Rollouts.gif" alt="GT"></img>
+                        <img src="GIFs/ComparisonBaselines/BlockPush_04/Rollouts.gif" alt="GT"></img>
                       </div>
                     </div>
 
@@ -417,22 +417,22 @@ const IndexPage: React.FC<PageProps> = () => {
                         <div class="full-gif-label label-2">PlaySlot</div>
                         <div class="full-gif-label label-3">CADDY</div>
                         <div class="full-gif-label label-4">SVG</div>
-                        <img src="GIFs/ComparisonBaselines/ButtonPress_00/_Rollouts.gif" alt="GT"></img>
+                        <img src="GIFs/ComparisonBaselines/ButtonPress_00/Rollouts.gif" alt="GT"></img>
                       </div>
                       <div class="full-gif">
                         <div class="full-gif-label label-1">GT</div>
                         <div class="full-gif-label label-2">PlaySlot</div>
                         <div class="full-gif-label label-3">CADDY</div>
                         <div class="full-gif-label label-4">SVG</div>
-                        <img src="GIFs/ComparisonBaselines/ButtonPress_01/_Rollouts.gif" alt="GT"></img>
+                        <img src="GIFs/ComparisonBaselines/ButtonPress_01/Rollouts.gif" alt="GT"></img>
                       </div>
                     </div>
                     <div class="gif-row">
                       <div class="full-gif">
-                        <img src="GIFs/ComparisonBaselines/ButtonPress_02/_Rollouts.gif" alt="GT"></img>
+                        <img src="GIFs/ComparisonBaselines/ButtonPress_02/Rollouts.gif" alt="GT"></img>
                       </div>
                       <div class="full-gif">
-                        <img src="GIFs/ComparisonBaselines/ButtonPress_03/_Rollouts.gif" alt="GT"></img>
+                        <img src="GIFs/ComparisonBaselines/ButtonPress_03/Rollouts.gif" alt="GT"></img>
                       </div>
                     </div>
 
@@ -449,22 +449,22 @@ const IndexPage: React.FC<PageProps> = () => {
                         <div class="full-gif-label label-2">PlaySlot</div>
                         <div class="full-gif-label label-3">CADDY</div>
                         <div class="full-gif-label label-4">SVG</div>
-                        <img src="GIFs/ComparisonBaselines/GridShapes_00/_Rollouts.gif" alt="GT"></img>
+                        <img src="GIFs/ComparisonBaselines/GridShapes_00/Rollouts.gif" alt="GT"></img>
                       </div>
                       <div class="full-gif">
                         <div class="full-gif-label label-1">GT</div>
                         <div class="full-gif-label label-2">PlaySlot</div>
                         <div class="full-gif-label label-3">CADDY</div>
                         <div class="full-gif-label label-4">SVG</div>
-                        <img src="GIFs/ComparisonBaselines/GridShapes_01/_Rollouts.gif" alt="GT"></img>
+                        <img src="GIFs/ComparisonBaselines/GridShapes_01/Rollouts.gif" alt="GT"></img>
                       </div>
                     </div>
                     <div class="gif-row">
                       <div class="full-gif">
-                        <img src="GIFs/ComparisonBaselines/GridShapes_02/_Rollouts.gif" alt="GT"></img>
+                        <img src="GIFs/ComparisonBaselines/GridShapes_02/Rollouts.gif" alt="GT"></img>
                       </div>
                       <div class="full-gif">
-                        <img src="GIFs/ComparisonBaselines/GridShapes_03/_Rollouts.gif" alt="GT"></img>
+                        <img src="GIFs/ComparisonBaselines/GridShapes_03/Rollouts.gif" alt="GT"></img>
                       </div>
                     </div>
 
@@ -480,22 +480,22 @@ const IndexPage: React.FC<PageProps> = () => {
                         <div class="full-gif-label label-2">PlaySlot</div>
                         <div class="full-gif-label label-3">CADDY</div>
                         <div class="full-gif-label label-4">SVG</div>
-                        <img src="GIFs/ComparisonBaselines/Sketchy_00/_Rollouts.gif" alt="GT"></img>
+                        <img src="GIFs/ComparisonBaselines/Sketchy_00/Rollouts.gif" alt="GT"></img>
                       </div>
                       <div class="full-gif">
                         <div class="full-gif-label label-1">GT</div>
                         <div class="full-gif-label label-2">PlaySlot</div>
                         <div class="full-gif-label label-3">CADDY</div>
                         <div class="full-gif-label label-4">SVG</div>
-                        <img src="GIFs/ComparisonBaselines/Sketchy_01/_Rollouts.gif" alt="GT"></img>
+                        <img src="GIFs/ComparisonBaselines/Sketchy_01/Rollouts.gif" alt="GT"></img>
                       </div>
                     </div>
                     <div class="gif-row">
                       <div class="full-gif">
-                        <img src="GIFs/ComparisonBaselines/Sketchy_02/_Rollouts.gif" alt="GT"></img>
+                        <img src="GIFs/ComparisonBaselines/Sketchy_02/Rollouts.gif" alt="GT"></img>
                       </div>
                       <div class="full-gif">
-                        <img src="GIFs/ComparisonBaselines/Sketchy_03/_Rollouts.gif" alt="GT"></img>
+                        <img src="GIFs/ComparisonBaselines/Sketchy_03/Rollouts.gif" alt="GT"></img>
                       </div>
                     </div>
 
