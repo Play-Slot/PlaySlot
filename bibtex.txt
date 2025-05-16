@@ -1,6 +1,6 @@
-@article{villar_PlaySlot_2025,
+@inproceedings{villar_PlaySlot_2025,
   title={PlaySlot: Learning Inverse Latent Dynamics for Controllable Object-Centric Video Prediction and Planning},
   author={Villar-Corrales, Angel and Behnke, Sven},
-  journal={arXiv preprint arXiv:2502.07600},
+  booktitle={International Conference on Machine Learning (ICML)},
   year={2025}
 }
