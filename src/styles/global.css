@@ -72,6 +72,35 @@ a:hover::after {
 }
 
 
+.gif-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.9%;
+  flex-wrap: wrap; /* Optional: allows wrapping on smaller screens */
+  margin-top: 15px;
+}
+.full-gif {
+  width: 49%;
+  position: relative;
+  display: inline-block;
+}
+.full-gif img {
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    clip-path: inset(6% 0 0 0); /* top right bottom left */
+}
+.full-gif-label {
+  position: absolute;
+  font-size: 18px;
+  font-weight: bold;
+  top: -15%;
+}
+.label-1 { left: 10.5%; }  /* center of first quarter */
+.label-2 { left: 30.0%; }  /* center of second quarter */
+.label-3 { left: 55.5%; }  /* center of third quarter */
+.label-4 { left: 83.5%; }  /* center of fourth quarter */
+
 
 
 .image-container {
@@ -90,4 +119,16 @@ a:hover::after {
   font-weight: bold;
   padding-top: 5px;
   margin: 5px;
+}
+.image-with-title {
+    width: 50%;
+    text-align: center;
+}
+.image-with-title img {
+    width: 100%;
+    height: auto;
+}
+.image-title {
+    font-size: 18px;
+    font-weight: bold;
 }

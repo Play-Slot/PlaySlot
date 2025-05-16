@@ -337,11 +337,11 @@ const IndexPage: React.FC<PageProps> = () => {
 
                     <div>
                       PlaySlot achieves the best results in datasets that require modeling object interactions (BlockPush) or feature multiple moving objects (GridShapes), while maintaining competitive
-                      performance on ButtonPress.
+                      performance on ButtonPress and the real-world robotics dataset Sketchy.
                     </div>
                     <br></br>
 
-                    <img src="imgs/benchmark.png" alt="benchmark"></img>
+                    <img src="imgs/benchmark_v2.png" alt="benchmark"></img>
                     <br></br>
 
                     <div>
@@ -352,6 +352,135 @@ const IndexPage: React.FC<PageProps> = () => {
                         <img src="imgs/qual_01.png" alt="qual_01"></img>
                         <img src="imgs/qual_02.png" alt="qual_02"></img>
                     </div>
+
+
+
+                    <Heading> Comparison with Baselines </Heading>
+
+                    {/* RobotDB GIFs */}
+                    <div>
+                      <br></br>
+                      <a class="subtitle">BlockPush</a>
+                    </div>
+                    <div class="gif-row">
+                      <div class="full-gif">
+                        <div class="full-gif-label label-1">GT</div>
+                        <div class="full-gif-label label-2">PlaySlot</div>
+                        <div class="full-gif-label label-3">CADDY</div>
+                        <div class="full-gif-label label-4">SVG</div>
+                        <img src="GIFs/ComparisonBaselines/BlockPush_00/_Rollouts.gif" alt="GT"></img>
+                      </div>
+                      <div class="full-gif">
+                        <div class="full-gif-label label-1">GT</div>
+                        <div class="full-gif-label label-2">PlaySlot</div>
+                        <div class="full-gif-label label-3">CADDY</div>
+                        <div class="full-gif-label label-4">SVG</div>
+                        <img src="GIFs/ComparisonBaselines/BlockPush_01/_Rollouts.gif" alt="GT"></img>
+                      </div>
+                    </div>
+                    <div class="gif-row">
+                      <div class="full-gif">
+                        <img src="GIFs/ComparisonBaselines/BlockPush_03/_Rollouts.gif" alt="GT"></img>
+                      </div>
+                      <div class="full-gif">
+                        <img src="GIFs/ComparisonBaselines/BlockPush_04/_Rollouts.gif" alt="GT"></img>
+                      </div>
+                    </div>
+
+
+                    {/* ButtonPress GIFs */}
+                    <div>
+                      <br></br>
+                      <a class="subtitle">ButtonPress</a>
+                    </div>
+                    <div class="gif-row">
+                      <div class="full-gif">
+                        <div class="full-gif-label label-1">GT</div>
+                        <div class="full-gif-label label-2">PlaySlot</div>
+                        <div class="full-gif-label label-3">CADDY</div>
+                        <div class="full-gif-label label-4">SVG</div>
+                        <img src="GIFs/ComparisonBaselines/ButtonPress_00/_Rollouts.gif" alt="GT"></img>
+                      </div>
+                      <div class="full-gif">
+                        <div class="full-gif-label label-1">GT</div>
+                        <div class="full-gif-label label-2">PlaySlot</div>
+                        <div class="full-gif-label label-3">CADDY</div>
+                        <div class="full-gif-label label-4">SVG</div>
+                        <img src="GIFs/ComparisonBaselines/ButtonPress_01/_Rollouts.gif" alt="GT"></img>
+                      </div>
+                    </div>
+                    <div class="gif-row">
+                      <div class="full-gif">
+                        <img src="GIFs/ComparisonBaselines/ButtonPress_02/_Rollouts.gif" alt="GT"></img>
+                      </div>
+                      <div class="full-gif">
+                        <img src="GIFs/ComparisonBaselines/ButtonPress_03/_Rollouts.gif" alt="GT"></img>
+                      </div>
+                    </div>
+
+
+
+                    {/* GridShapes GIFs */}
+                    <div>
+                      <br></br>
+                      <a class="subtitle">GridShapes</a>
+                    </div>
+                    <div class="gif-row">
+                      <div class="full-gif">
+                        <div class="full-gif-label label-1">GT</div>
+                        <div class="full-gif-label label-2">PlaySlot</div>
+                        <div class="full-gif-label label-3">CADDY</div>
+                        <div class="full-gif-label label-4">SVG</div>
+                        <img src="GIFs/ComparisonBaselines/GridShapes_00/_Rollouts.gif" alt="GT"></img>
+                      </div>
+                      <div class="full-gif">
+                        <div class="full-gif-label label-1">GT</div>
+                        <div class="full-gif-label label-2">PlaySlot</div>
+                        <div class="full-gif-label label-3">CADDY</div>
+                        <div class="full-gif-label label-4">SVG</div>
+                        <img src="GIFs/ComparisonBaselines/GridShapes_01/_Rollouts.gif" alt="GT"></img>
+                      </div>
+                    </div>
+                    <div class="gif-row">
+                      <div class="full-gif">
+                        <img src="GIFs/ComparisonBaselines/GridShapes_02/_Rollouts.gif" alt="GT"></img>
+                      </div>
+                      <div class="full-gif">
+                        <img src="GIFs/ComparisonBaselines/GridShapes_03/_Rollouts.gif" alt="GT"></img>
+                      </div>
+                    </div>
+
+
+                    {/* Sketchy GIFs */}
+                    <div>
+                      <br></br>
+                      <a class="subtitle">Sketchy</a>
+                    </div>
+                    <div class="gif-row">
+                      <div class="full-gif">
+                        <div class="full-gif-label label-1">GT</div>
+                        <div class="full-gif-label label-2">PlaySlot</div>
+                        <div class="full-gif-label label-3">CADDY</div>
+                        <div class="full-gif-label label-4">SVG</div>
+                        <img src="GIFs/ComparisonBaselines/Sketchy_00/_Rollouts.gif" alt="GT"></img>
+                      </div>
+                      <div class="full-gif">
+                        <div class="full-gif-label label-1">GT</div>
+                        <div class="full-gif-label label-2">PlaySlot</div>
+                        <div class="full-gif-label label-3">CADDY</div>
+                        <div class="full-gif-label label-4">SVG</div>
+                        <img src="GIFs/ComparisonBaselines/Sketchy_01/_Rollouts.gif" alt="GT"></img>
+                      </div>
+                    </div>
+                    <div class="gif-row">
+                      <div class="full-gif">
+                        <img src="GIFs/ComparisonBaselines/Sketchy_02/_Rollouts.gif" alt="GT"></img>
+                      </div>
+                      <div class="full-gif">
+                        <img src="GIFs/ComparisonBaselines/Sketchy_03/_Rollouts.gif" alt="GT"></img>
+                      </div>
+                    </div>
+
 
 
 
@@ -658,6 +787,18 @@ const IndexPage: React.FC<PageProps> = () => {
 
                     PlaySlot can learn robot behaviors from *unlabelled* expert demonstrations in a sample-efficent manner. Furthermore, we train a shallow model to map from PlaySlot's latent actions to the real action space, thus allowing to execute the learn behaviors.
 
+                    <div class="image-container">
+                      <div className="image-with-title">
+                        <div className="image-title">ButtonPress Behavior</div>
+                        <img src="imgs/Success_ButtonPress.png" alt="behavior_eval_button"></img>
+                      </div>
+                      <div className="image-with-title">
+                        <div className="image-title">BlockPush Behavior</div>
+                        <img src="imgs/Success_RobotDB.png" alt="behavior_eval_push"></img>
+                      </div>
+                    </div>
+
+                    <br></br>
                     In the GIFs below, we show predicted trajectories within PlaySlot’s latent imagination, where the model, starting from a single reference frame, autoregressively generates latent actions using the policy model and predicts future scene states in the latent space, as well as the simulated execution of the decoded latent actions in the corresponding environment.
 
 
